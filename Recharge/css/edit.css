@@ -1,0 +1,28 @@
+
+form h1 {
+    padding: 5px 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+}
+a em, a i, button {
+    display: inline-block;
+    background:black;
+    color:white;
+    border: 1px solid var(--primary);
+    border-radius: var(--border-radius);
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    padding: .5em .75em;
+    min-width: 10ch;
+    user-select: none;
+    font-style: normal;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+body{
+    background-color: brown;
+}
